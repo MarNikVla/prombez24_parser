@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "prombez24-parser"
+version = "0.1.0"
+description = ""
+authors = ["marnikvla <condor52@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "prombez24_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
